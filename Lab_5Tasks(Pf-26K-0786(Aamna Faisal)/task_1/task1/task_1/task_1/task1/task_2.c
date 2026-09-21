@@ -19,7 +19,7 @@ int main(){
             printf("Holiday/Weekend Price \n");
             price=700;
         }
-        else{printf("Invalid Day");
+        else{printf("Invalid Day\n");
         price=0;}
     }
     else{
@@ -32,9 +32,11 @@ int main(){
             printf("Holiday/Weekend Price \n");
             price=800;
         }
-        else{printf("Invalid Day");}
+        else{printf("Invalid Day\n");
+        price=0;}
     }
     printf("final price :%d",price);
+    return 0;
 
 
 
